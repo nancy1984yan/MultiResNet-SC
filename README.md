@@ -2,7 +2,7 @@
 This is an implementation of the models in the following paper which is published in **Computers in Biology and Medicine**:  
 In case you find the code useful, please consider giving appropriate credit to it by citing the paper above.  
 ## Citation
-```bash
+```
 @article{HUANG2024108261,
 title = {Multi-residual 2D network integrating spatial correlation for whole heart segmentation},
 journal = {Computers in Biology and Medicine},
