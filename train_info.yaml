@@ -1,34 +1,12 @@
 model_2D: 
   - ResUNet_LSTM
 
-imagesets_orig_path:
-  - "/datasets/MMWHS/ct_train"
-  - "/datasets/MMWHS/ct_test"
-
-
 WHS_datasets: #imagesets_path和labelsets必须是一一对应的
-  labelsets_3D_path:
-    - "/WHS/datasets/labelsets/MMWHS/ct_train"
-    - "/WHS/datasets/labelsets/MMWHS/ct_test"
-
-  augmented_3D_path: #label和image放在一起
-    - "/WHS/datasets/augmented/MMWHS/ct_train"
-
-
   datasets_input_path: #label和image放一起
     - "/WHS/MultiResNet-SC/datasets_input/MMWHS/ct_train"
     - "/WHS/MultiResNet-SC/datasets_input/MMWHS/ct_test"
     - "/WHS/MultiResNet-SC/datasets_input/augmented/MMWHS/ct_train"
 
   results_output:
-    datasets_3D_output:
-      - "/WHS/MultiResNet-SC/datasets_output/MMWHS/ct_test"
-
     statistics: "/WHS/MultiResNet-SC/statistics"
-
     model_state_dict: "/WHS/MultiResNet-SC/output_temp_model_dict"
-
-
-data_name_path:
-  - "/data_name/MMWHS_train_name.txt"
-  - "/data_name/MMWHS_test_name.txt"
