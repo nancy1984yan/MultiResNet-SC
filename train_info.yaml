@@ -1,8 +1,8 @@
 model_2D: 
   - ResUNet_LSTM
 
-WHS_datasets: #imagesets_path和labelsets必须是一一对应的
-  datasets_input_path: #label和image放一起
+WHS_datasets: 
+  datasets_input_path: #label and image are in the same folder
     - "/WHS/MultiResNet-SC/datasets_input/MMWHS/ct_train"
     - "/WHS/MultiResNet-SC/datasets_input/MMWHS/ct_test"
     - "/WHS/MultiResNet-SC/datasets_input/augmented/MMWHS/ct_train"
